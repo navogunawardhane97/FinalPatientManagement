@@ -16,7 +16,7 @@
 <div class="col-6">  
 	<h3 align="center">Patient Management</h3>
  
- 	<form id="formPatient" name="formPatient" action="hospital.jsp">   
+ 	<form id="formPatient" name="formPatient" action="patients.jsp">   
  			NIC:   
  		<input id="nic" name="nic" type="text" class="form-control form-control-sm"> 
  

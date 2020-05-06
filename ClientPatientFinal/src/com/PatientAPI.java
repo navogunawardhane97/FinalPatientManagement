@@ -81,7 +81,7 @@ public class PatientAPI extends HttpServlet {
 
 		Map<String, String> param = getParasMap(request);
 		
-		String result = patientObj.updatePatient(param.get("hidPatientIDSave").toString(),
+		String result = patientObj.updatePatient(param.get("hidPIDSave").toString(),
 				param.get("nic").toString(),
 				param.get("name").toString(),
 				param.get("age").toString(), 

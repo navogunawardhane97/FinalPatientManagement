@@ -17,7 +17,7 @@ $(document).on("click", "#btnSave", function(event)
 	$("#alertError").hide(); 
 
 	// Form validation-------------------  
-	var status = validatehospitalForm();  
+	var status = validatepatientForm();  
 	if (status != true)  
 	{   
 		$("#alertError").text(status);   
@@ -125,7 +125,7 @@ function onPatientDeletedComplete(response, status)
 }
 
 //CLIENTMODEL
-function validatehospitalForm() {  
+function validatepatientForm() {  
 	// First Name 
 	if ($("#nic").val().trim() == "")  
 	{   
